@@ -9,19 +9,34 @@
 <body>
     
   <div class="container">
-    <form>
+    <form class="needs-validation" novalidate>
       <div class="mb-3">
         <label for="milhas" class="form-label">Milhas</label>
-        <input type="text" id="milhas" class="form-control" id="milhas">
+        <input type="number" 
+          min="0" 
+          id="milhas" 
+          class="form-control" 
+          id="milhas"
+          required>
+        <div class="invalid-feedback">
+          O campo milhas é obrigatório.
+        </div>
       </div>
       <div class="mb-3">
         <label for="metros" class="form-label">Metros</label>
-        <input type="text" id="metros" class="form-control" id="metros">
+        <input type="number" 
+          min="0" 
+          id="metros" 
+          class="form-control" 
+          id="metros"
+          required>
+        <div class="invalid-feedback">
+          O campo metros é obrigatório.
+        </div>
       </div>
-      <div id="mostrar-conversao">
-        <p>Conversão</p>
-      </div>
-      <button type="button" id="converter" class="btn btn-primary">Converter</button>
+      <p><strong>Valor da Conversão</strong></p>
+      <div class="d-none m-3" id="mostrar-conversao"></div>
+      <button type="submit" id="converter" class="btn btn-primary">Converter</button>
       <button type="button" id="limpar" class="btn btn-danger">Limpar Campos</button>
     </form>
   </div>
