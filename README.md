@@ -5,5 +5,5 @@ Este projeto é um site estático que visa obter a conversão de unidades de med
 # Tecnologias
 
 * HTML
-* Bootstrap
-* JQuery.
+* [Bootstrap](https://getbootstrap.com/)
+* [JQuery](https://jquery.com/)
