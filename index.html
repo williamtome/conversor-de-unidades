@@ -9,36 +9,43 @@
 <body>
     
   <div class="container">
-    <form class="needs-validation" novalidate>
-      <div class="mb-3">
-        <label for="milhas" class="form-label">Milhas</label>
-        <input type="number" 
-          min="0" 
-          id="milhas" 
-          class="form-control" 
-          id="milhas"
-          required>
-        <div class="invalid-feedback">
-          O campo milhas é obrigatório.
+    <div class="row">
+      <div class="col-md-6 m-auto">
+        <div class="row">
+          <h1>Conversor de unidades</h1>
         </div>
+        <form class="needs-validation" novalidate>
+          <div class="mb-3">
+            <label for="milhas" class="form-label">Milhas</label>
+            <input type="number" 
+              min="0" 
+              id="milhas" 
+              class="form-control" 
+              id="milhas"
+              required>
+            <div class="invalid-feedback">
+              O campo milhas é obrigatório.
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="metros" class="form-label">Metros</label>
+            <input type="number" 
+              min="0" 
+              id="metros" 
+              class="form-control" 
+              id="metros"
+              required>
+            <div class="invalid-feedback">
+              O campo metros é obrigatório.
+            </div>
+          </div>
+          <p><strong>Valor da Conversão</strong></p>
+          <div class="d-none m-3" id="mostrar-conversao"></div>
+          <button type="submit" id="converter" class="btn btn-primary">Converter</button>
+          <button type="button" id="limpar" class="btn btn-danger">Limpar Campos</button>
+        </form>
       </div>
-      <div class="mb-3">
-        <label for="metros" class="form-label">Metros</label>
-        <input type="number" 
-          min="0" 
-          id="metros" 
-          class="form-control" 
-          id="metros"
-          required>
-        <div class="invalid-feedback">
-          O campo metros é obrigatório.
-        </div>
-      </div>
-      <p><strong>Valor da Conversão</strong></p>
-      <div class="d-none m-3" id="mostrar-conversao"></div>
-      <button type="submit" id="converter" class="btn btn-primary">Converter</button>
-      <button type="button" id="limpar" class="btn btn-danger">Limpar Campos</button>
-    </form>
+    </div>
   </div>
 
   <script
