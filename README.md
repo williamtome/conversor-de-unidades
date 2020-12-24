@@ -2,6 +2,8 @@
 
 Este projeto é um site estático que visa obter a conversão de unidades de medida.
 
+![Preview](https://github.com/williamtome/conversor-unidades/conversor-unidades.gif?raw=true)
+
 # Tecnologias
 
 * HTML
