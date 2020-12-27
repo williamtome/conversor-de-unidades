@@ -1,7 +1,8 @@
 # Conversor de Unidades
 
 Este projeto é um site estático que visa obter a conversão de unidades de medida.
-[Clique aqui](https://conversor-de-unidades.williamtome.dev/) para visualizar a aplicação no ar!
+
+Esta aplicação está hospedada na [Vercel](https://vercel.com/). [Clique aqui](https://conversor-de-unidades.williamtome.dev/) para visualizar a aplicação no ar!
 
 ![Preview](https://github.com/williamtome/conversor-de-unidades/blob/master/conversor-unidades.gif?raw=true)
 
